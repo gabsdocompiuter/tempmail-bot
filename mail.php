@@ -79,4 +79,20 @@ class TempMail{
             return false;
         }
     }
+
+    function getActivationCode($site){
+        switch($site){
+            case 'twitter':
+                $twitterMail = $this->getLastMessage();
+
+                $oDom = new simple_html_dom();
+                $oDom->load($twitterMail);
+                $code = $oDom->find('[class="h1 black"]', 0)->innertext;
+
+                return $code;
+
+            default:
+                return NULL;
+        }
+    }
 }
