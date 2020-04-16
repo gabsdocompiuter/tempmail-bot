@@ -16,7 +16,7 @@ O BOT retorna a última mensagem que o email recebeu no formato de HTML
 O BOT atualiza o tempo do email, retornando para 10 minutos
 
 **string: getActivationCode(string: $site)**\
-O BOT busca o código de ativação do site passado por passado por parâmetro (necessário ser a última mensagem recebida)
+O BOT busca o código de ativação do site passado por passado por parâmetro (necessário ser a última mensagem recebida)\
 Sites disponíveis no momento:
 - Twitter
 
