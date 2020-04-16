@@ -1,4 +1,4 @@
-# TempMail BOT LIB
+# TempMail BOT
 BOT PHP para obter email temporário utilizando o [10 Minute Mail](https://10minutemail.net)
 
 &nbsp;
